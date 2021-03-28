@@ -1,4 +1,4 @@
-# Encrypt-Google-Drive-Stream-Upload
+# An extremely efficient shell script for encrypting uploads to Google Drive
 
 A super lightweight and memory efficient bash script to encrypt a file/folder and then upload the encrypted file to your Google Drive account. It follows the following procedures,
 
