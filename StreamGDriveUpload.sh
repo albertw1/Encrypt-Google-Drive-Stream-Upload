@@ -2,6 +2,8 @@
 # Written for Ubuntu and Mac OS.
 
 # Inputs
+# client_id, client_secret, and refresh_token may be obtained from https://developers.google.com/oauthplayground/
+# for more permanent auth credentials, go to https://developers.google.com/drive/api/v3/enable-drive-api
 file_name="$1"
 client_id=""
 client_secret=""
