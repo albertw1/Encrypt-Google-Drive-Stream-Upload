@@ -8,7 +8,7 @@ A super lightweight and memory efficient bash script to encrypt a file/folder an
 
 which normally requires space on the hard drive to be allocated first for the `.tar` archive, and then the `.gpg` file, which is just under double the file/folder's original size.
 
-The script does the 3 steps above by piping through a *stream of data* from the file/folder, so at any given time it is only operating on a small *portion* of the entire file/folder. This saves hard drive space as well as CPU/Memory requirements. In fact, the amount of memory used at any given time is only around 1 MB of RAM, with no physical space required. This means if your hard drive is almost full, you can still archive, encrypt, and upload without needing to worry about creating space for the archive and encryption file.
+The script does the 3 steps above by piping through a **stream of data** from the file/folder, so at any given time it is only operating on a small *portion* of the entire file/folder. This saves hard drive space as well as CPU/Memory requirements. In fact, the amount of memory used at any given time is only around 1 MB of RAM, with no physical space required. This means if your hard drive is almost full, you can still archive, encrypt, and upload without needing to worry about creating space for the archive and encryption file.
 
 The data is encrypted before it leaves your computer, making your uploads private. A decryption file is provided as well.
 
